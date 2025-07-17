@@ -113,3 +113,7 @@ Some other alternatives might include document stores like MongoDB (flexible for
 To evaluate whether our search is complete (that is, returns all relevant trials), we’d start by establishing a source of truth using the raw dataset to create ground-truth query sets with known correct matches. For each query (e.g., “NSCLC + immunotherapy”), we’d manually label which trials should be returned. AI could assist in semi-automating this labeling, but ultimately it’s a supervised task.
 
 We’d then run those queries through our app and calculate recall: the percentage of relevant trials that are successfully returned. Any missing results (false negatives) would be analyzed to understand why they were missed — for example, a synonym wasn’t captured, a typo wasn’t handled, or filtering logic excluded it.
+
+
+https://github.com/user-attachments/assets/3e86ed56-3068-4b76-b111-1fc92dae74b5
+
