@@ -4,14 +4,6 @@ This is a Next.js app for searching clinical trial data (powered by [ClinicalTri
 
 The app only operates on a 1,000 row dataset ingested from data/ctg-studies.json. It features a global text search that supports multiple search terms (comma separated) and the ability to configure search options. Search options include whether to turn on synonym matching (e.g., "NSCLC" matches "non-small cell lung cancer" [only implemented for NSCLC for demo]) and an AND match (if multiple terms are provided with AND match toggled on, both terms will need to be matched in a single entry to be returned). Global search considers 
 
-## Features
-
-- Global text search with optional:
-  - **AND match** (require all terms to be present)
-  - **Synonym expansion** (e.g., "NSCLC" matches "non-small cell lung cancer") [only implemented for NSCLC for demo]
-- Filter by **trial status** (multi-select)
-- Sort and paginate results
-
 ## 📁 Project Structure
 
 ```
